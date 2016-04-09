@@ -1,4 +1,4 @@
-package org.chetz.eran.vinerandomplayer;
+package org.chetz.eran.giphyRandomPlayer;
 
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(org.chetz.eran.giphyRandomPlayer.R.layout.activity_main);
 
-        vid = (VideoView) findViewById(R.id.videoView);
+        vid = (VideoView) findViewById(org.chetz.eran.giphyRandomPlayer.R.id.videoView);
 
         String firstVideoUrl = "https://media.giphy.com/media/1IZ7XOCWvoQfu/giphy.mp4";
 
