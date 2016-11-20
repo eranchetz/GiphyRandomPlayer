@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
         vid = (VideoView) findViewById(org.chetz.eran.giphyRandomPlayer.R.id.videoView);
 
-        String firstVideoUrl = "https://media.giphy.com/media/1IZ7XOCWvoQfu/giphy.mp4";
-
+        String firstVideoUrl = "https://media.giphy.com/media/YJBNjrvG5Ctmo/giphy.mp4";
+        
 
         //MediaController mc = new MediaController(this);
         vid.setVideoURI(Uri.parse(firstVideoUrl));
